@@ -1,0 +1,119 @@
+/* Reset default styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Body background & center content
+body {
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main card container */
+/* .container {
+  background-color: white;
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+} */
+
+/* Left image panel */
+/* .left-panel {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .left-panel img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+} */
+
+/* Right form panel */
+/* .right-panel {
+  flex: 1;
+  padding: 40px;
+  background-color: #fff;
+} */
+/* 
+.right-panel h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+} */
+
+/* Input fields */
+/* .right-panel input[type="text"],
+.right-panel input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+
+/* Remember me */
+/* .remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+} */
+
+/* .remember label {
+  margin-left: 8px;
+  font-size: 14px;
+} */
+
+/* Button */
+/* .right-panel button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+} */
+/* 
+.right-panel button:hover {
+  background-color: #3367d6;
+} */
+
+/* Extras (links and social icons) */
+/* .extras {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+} */
+/* 
+.extras a {
+  text-decoration: underline;
+  color: #4285f4;
+} */
+/* 
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+} */
+
+/* .social-icons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}  */

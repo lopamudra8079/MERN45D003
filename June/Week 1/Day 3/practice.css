@@ -1,0 +1,64 @@
+/* *{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+html, body{
+height: 100%;
+width: 100%;
+} */
+/* main axis(x) 
+cross axis (y)
+/* main axis is horizontal axis */
+/* cross axis is vertical axis */
+/* display: flex;add on parent axis */
+/* grid display: grid; add on parent axis */
+/* grid-template-columns: repeat(3, 1fr); */
+/* grid-template-rows: repeat(3, 1fr); */
+/* grid-column */ 
+
+
+
+nav{
+    width: 100vw;
+    /* background-color: #333; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -6px -6px 10px black   
+}
+.nav-logo{
+    width: 40%;
+    /* background-color: blue; */
+    padding: 15px;
+    padding-left: 50px;
+}
+.nav-logo{
+    color:blue;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.nav-logo p{
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav-logo p span{
+    color: orangered;
+}
+.nav-list{
+    width:40% ;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+ font-size: 1.2rem;
+ cursor: pointer;
+    align-items: center;
+    padding-top: 16px;
+}
+.nav-list ul li:hover{
+    color:blue;
+    font-weight: bold;
+}
